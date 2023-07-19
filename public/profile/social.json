@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/charalambos-deves-863a83240"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/xarDeves"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:ch.nteves@gmail.com"
+        }
+    ]
+}

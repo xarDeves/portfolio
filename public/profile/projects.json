@@ -1,0 +1,205 @@
+    {
+        "Software - Hardware" : [
+            {
+                "image" : "images/projects/spectra_mk1.webp",
+                "title": "Spectra MK I",
+                "bodyText": "A parametrizable, standalone audio to color transformer with audio visualization tools built on the esp32, utilizing freeRTOS, with its respective apps for desktop (C++ with QT5) and Android (Kotlin).",
+                "links": [
+                    {
+                        "text": "GitFront",
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    },
+                    {
+                        "text": "Indiegogo",
+                        "href": "https://www.indiegogo.com/projects/spectra-mk1/coming_soon/x/34234934"
+                    },
+                    {
+                        "text": "Youtube",
+                        "href": "https://www.youtube.com/watch?v=HMN1v22bI2o&ab_channel=Spectra"
+                    }
+                ],
+                "tags" : [
+                    "C++",
+                    "Embedded",
+                    "Esp32",
+                    "FreeRTOS",
+                    "Kotlin",
+                    "Android",
+                    "Qt5"
+                ]
+            },
+            {
+                "image" : "images/projects/caaring-poster.png",
+                "title": "ChemisFree",
+                "bodyText": "A desktop application suit for chemists, providing utilities for molecule editing/recognition and article management, utilizing OCR and text parsing/saving via XML.",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/mayankagarwal09/Caaring"
+                    }
+                ],
+                "tags" : [
+                    "Java",
+                    "XML",
+                    "XSD"
+                ]
+            },
+            {
+                "image" : "images/projects/caaring-poster.png",
+                "title": "Lottery Prediction",
+                "bodyText": "Scraped, parsed and transformed lottery draw data in order to create an LSTM neural network for time series forecasting. (Surprise surprise, it didn't work).",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/mayankagarwal09/Caaring"
+                    }
+                ],
+                "tags" : [
+                    "Python",
+                    "Web Scraping"
+                ]
+            },
+            {
+                "image" : "images/projects/caaring-poster.png",
+                "title": "P2party",
+                "bodyText": "not sure about that, talk with makis.",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/mayankagarwal09/Caaring"
+                    }
+                ],
+                "tags" : [
+                    "Java",
+                    "Kotlin",
+                    "Room DB",
+                    "Android" 
+                ]
+            },
+            {
+                "image" : "images/projects/caaring-poster.png",
+                "title": "PTUXIAKH",
+                "bodyText": "placeholder.",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/mayankagarwal09/Caaring"
+                    }
+                ],
+                "tags" : [
+                    "Esp32",
+                    "Cloud Computing",
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "images/projects/caaring-poster.png",
+                "title": "This Portfolio",
+                "bodyText": "Expanded upon Mayank Agarwal's work by making the 'Projects' section dynamic and adding image modal component for each project.",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/mayankagarwal09/Caaring"
+                    }
+                ],
+                "tags" : [
+                    "React",
+                    "Json",
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "Audio - Video" : [
+            {
+                "image" : "images/projects/portfolio-poster.png",
+                "title": "Fear the Reaper",
+                "bodyText": "A remix of 'Don't Fear The Reaper' by Blue Oyster Cult",
+                "links": [
+                    {
+                        "text": "Youtube",
+                        "href": "https://www.youtube.com/watch?v=Et3UBjvTtNA&ab_channel=koupa"
+                    }
+                ],
+                "tags" : [
+                    "Ableton Live",
+                    "Adobe Photoshop",
+                    "Adobe After effects"
+                ]
+            },
+            {
+                "image" : "images/projects/stinky.jpg2",
+                "title": "Stinky Slumdog",
+                "bodyText": "My band's channel (me being the drummer) with all our work, having done all of the mixing/mastering, image manipulation and (collaboratively) video editing",
+                "links": [
+                    {
+                        "text": "Youtube",
+                        "href": "https://www.youtube.com/@stinkyslumdog3698"
+                    }
+                ],
+                "tags" : [
+                    "Ableton Live",
+                    "Sony Vegas",
+                    "Adobe Photoshop"
+                ]
+            }
+        ],
+        "3D Design" : [
+            {
+                "image" : "images/projects/portfolio-poster.png",
+                "title": "Peter's Return",
+                "bodyText": "A scene inspired by the series 'Fringe'.",
+                "links": [
+                    {
+                        "text": "Some image hosting site",
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    }
+                ],
+                "tags" : [
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "images/projects/portfolio-poster.png",
+                "title": "The Home",
+                "bodyText": "An interior space scene.",
+                "links": [
+                    {
+                        "text": "Some image hosting site",
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    }
+                ],
+                "tags" : [
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "images/projects/portfolio-poster.png",
+                "title": "Glass Garden",
+                "bodyText": "An abstract glass scene.",
+                "links": [
+                    {
+                        "text": "Some image hosting site",
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    }
+                ],
+                "tags" : [
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "images/projects/portfolio-poster.png",
+                "title": "Glass towers",
+                "bodyText": "Yet again an abstract glass scene.",
+                "links": [
+                    {
+                        "text": "Some image hosting site",
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    }
+                ],
+                "tags" : [
+                    "Blender"
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,115 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+     
+            "title": "Languages",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/cpp.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/kotlin.png",
+                    "title": "Kotlin"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android\n\n"
+                },
+                {
+                    "icon": "images/skills/arduino.png",
+                    "title": "Arduino\n\n"
+                },
+                {
+                    "icon": "images/skills/espressif.png",
+                    "title": "Espressif\nSystems"
+                },
+                {
+                    "icon": "images/skills/open_cv.png",
+                    "title": "OpenCV\n\n"
+                },
+                {
+                    "icon": "images/skills/qt.png",
+                    "title": "Qt5\n\n"
+                },
+                {
+                    "icon": "images/skills/nvidia.png",
+                    "title": "Cuda\n\n"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/windows.png",
+                    "title": "Windows\n\n"
+                },
+                {
+                    "icon": "images/skills/linux.png",
+                    "title": "Linux\n\n"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git\n\n"
+                },
+                {
+                    "icon": "images/skills/android_studio.png",
+                    "title": "Android\nStudio"
+                },
+                {
+                    "icon": "images/skills/intellij_idea.png",
+                    "title": "Intellij\nIdea"
+                },
+                {
+                    "icon": "images/skills/pycharm.png",
+                    "title": "Pycharm\n\n"
+                },
+                {
+                    "icon": "images/skills/vs_code.png",
+                    "title": "VS Code\n\n"
+                },
+                {
+                    "icon": "images/skills/vs.png",
+                    "title": "Visual\nStudio"
+                },
+                {
+                    "icon": "images/skills/photoshop.png",
+                    "title": "Adobe\nPhotoshop"
+                },
+                {
+                    "icon": "images/skills/sony_vegas.png",
+                    "title": "Sony\nVegas"
+                },
+                {
+                    "icon": "images/skills/blender.png",
+                    "title": "Blender\n\n"
+                },
+                {
+                    "icon": "images/skills/ableton.png",
+                    "title": "Ableton\nlive"
+                }
+            ]
+    }
+]}
