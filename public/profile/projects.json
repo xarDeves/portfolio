@@ -1,7 +1,7 @@
     {
         "Software - Hardware" : [
             {
-                "image" : "images/projects/spectra_mk1.webp",
+                "image" : "images/projects/mk_I.jpg",
                 "title": "Spectra MK I",
                 "bodyText": "A parametrizable, standalone audio to color transformer with audio visualization tools built on the esp32, utilizing freeRTOS, with its respective apps for desktop (C++ with QT5) and Android (Kotlin).",
                 "links": [
@@ -56,7 +56,9 @@
                 ],
                 "tags" : [
                     "Python",
-                    "Web Scraping"
+                    "Web Scraping",
+                    "Tensorflow",
+                    "Pandas"
                 ]
             },
             {
@@ -93,7 +95,7 @@
                 ]
             },
             {
-                "image" : "images/projects/caaring-poster.png",
+                "image" : "images/projects/this_portfolio.gif",
                 "title": "This Portfolio",
                 "bodyText": "Expanded upon Mayank Agarwal's work by making the 'Projects' section dynamic and adding image modal component for each project.",
                 "links": [
@@ -112,7 +114,7 @@
         ],
         "Audio - Video" : [
             {
-                "image" : "images/projects/portfolio-poster.png",
+                "image" : "images/projects/fear.jpg",
                 "title": "Fear the Reaper",
                 "bodyText": "A remix of 'Don't Fear The Reaper' by Blue Oyster Cult",
                 "links": [
@@ -128,7 +130,7 @@
                 ]
             },
             {
-                "image" : "images/projects/stinky.jpg2",
+                "image" : "images/projects/stinky.jpg",
                 "title": "Stinky Slumdog",
                 "bodyText": "My band's channel (me being the drummer) with all our work, having done all of the mixing/mastering, image manipulation and (collaboratively) video editing",
                 "links": [
@@ -146,7 +148,7 @@
         ],
         "3D Design" : [
             {
-                "image" : "images/projects/portfolio-poster.png",
+                "image" : "images/projects/fringe.jpg",
                 "title": "Peter's Return",
                 "bodyText": "A scene inspired by the series 'Fringe'.",
                 "links": [
@@ -174,7 +176,7 @@
                 ]
             },
             {
-                "image" : "images/projects/portfolio-poster.png",
+                "image" : "images/projects/glass_garden.jpg",
                 "title": "Glass Garden",
                 "bodyText": "An abstract glass scene.",
                 "links": [
@@ -188,7 +190,7 @@
                 ]
             },
             {
-                "image" : "images/projects/portfolio-poster.png",
+                "image" : "images/projects/glass_towers_2.jpg",
                 "title": "Glass towers",
                 "bodyText": "Yet again an abstract glass scene.",
                 "links": [
