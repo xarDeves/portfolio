@@ -1,10 +1,14 @@
-import React, { useContext } from 'react';
+/* eslint-disable */
+import React, { useContext, useState } from 'react';
 import {
   Button, Card, Badge, Col,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-gallery/styles/css/image-gallery.css';
+import 'react-image-lightbox/style.css';
 
 const styles = {
   badgeStyle: {
@@ -38,6 +42,25 @@ const ProjectCard = (props) => {
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
 
   const { project } = props;
+  const [lightboxVisible, setLightboxVisible] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const openLightbox = (index) => {
+    setCurrentImageIndex(index);
+    setLightboxVisible(true);
+  };
+
+  const closeLightbox = () => {
+    setLightboxVisible(false);
+  };
+
+  const images = [
+    { original: project?.image, thumbnail: project?.image }, // Main image
+    ...(project?.additionalImages || []).map((image) => ({
+      original: image,
+      thumbnail: image,
+    })), // Additional images
+  ];
 
   return (
     <Col>
@@ -49,7 +72,7 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="top" src={project?.image} />
+        <Card.Img variant="top" src={project?.image} onClick={() => openLightbox(0)} />
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
@@ -85,6 +108,18 @@ const ProjectCard = (props) => {
           </Card.Footer>
         )}
       </Card>
+
+      {/* Use the react-image-lightbox */}
+      {lightboxVisible && (
+        <Lightbox
+          mainSrc={images[currentImageIndex].original}
+          nextSrc={images[(currentImageIndex + 1) % images.length].original}
+          prevSrc={images[(currentImageIndex + images.length - 1) % images.length].original}
+          onCloseRequest={closeLightbox}
+          onMovePrevRequest={() => setCurrentImageIndex((currentImageIndex + images.length - 1) % images.length)}
+          onMoveNextRequest={() => setCurrentImageIndex((currentImageIndex + 1) % images.length)}
+        />
+      )}
     </Col>
   );
 };
@@ -94,10 +129,13 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.shape({
-      text: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired,
-    })),
+    additionalImages: PropTypes.arrayOf(PropTypes.string),
+    links: PropTypes.arrayOf(
+      PropTypes.shape({
+        text: PropTypes.string.isRequired,
+        href: PropTypes.string.isRequired,
+      }),
+    ),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };

@@ -21,6 +21,7 @@ module.exports = {
     'prefer-template': 0,
     'react/no-children-prop': [0],
     'react/destructuring-assignment': [0],
-    'linebreak-style': 0
+    'linebreak-style': 0,
+    "vue/max-attributes-per-line": "off"
   },
 };
