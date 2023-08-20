@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useContext, useState } from 'react';
 import {
   Button, Card, Badge, Col,
@@ -116,7 +115,9 @@ const ProjectCard = (props) => {
           nextSrc={images[(currentImageIndex + 1) % images.length].original}
           prevSrc={images[(currentImageIndex + images.length - 1) % images.length].original}
           onCloseRequest={closeLightbox}
-          onMovePrevRequest={() => setCurrentImageIndex((currentImageIndex + images.length - 1) % images.length)}
+          onMovePrevRequest={
+            () => setCurrentImageIndex((currentImageIndex + images.length - 1) % images.length)
+          }
           onMoveNextRequest={() => setCurrentImageIndex((currentImageIndex + 1) % images.length)}
         />
       )}
