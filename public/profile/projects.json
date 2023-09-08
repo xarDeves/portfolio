@@ -2,13 +2,13 @@
         "Software - Hardware" : [
             {
                 "image" : "images/projects/mk_I/mk_I.jpg",
-                "additionalImages": ["images/projects/mk_I/mk_I_test.gif" ,"images/projects/mk_I/mk_I_breadboard.jpg"],
+                "additionalImages": ["images/projects/mk_I/mk_I_test.gif" ,"images/projects/mk_I/mk_I_breadboard.jpg", "images/projects/mk_I/mk_I_apps.jpg"],
                 "title": "Spectra MK I",
                 "bodyText": "A parametrizable, standalone audio to color transformer with audio visualization tools built on the esp32, utilizing freeRTOS, with its respective apps for desktop (C++ with QT5) and Android (Kotlin).",
                 "links": [
                     {
                         "text": "GitFront",
-                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                        "href": "https://gitfront.io/r/xarDeves/5hcVoMW3GXQM/Spectra-MK-I/"
                     },
                     {
                         "text": "Indiegogo",
@@ -20,13 +20,16 @@
                     }
                 ],
                 "tags" : [
-                    "C++",
                     "Embedded",
                     "Esp32",
                     "FreeRTOS",
+                    "C++",
                     "Kotlin",
                     "Android",
-                    "Qt5"
+                    "HTML",
+                    "CSS",
+                    "Qt5",
+                    "Blender"
                 ]
             },
             {
@@ -45,6 +48,24 @@
                     "Swing",
                     "XML",
                     "XSD"
+                ]
+            },
+            {
+                "image" : "images/projects/peer2party/p2party_composite.jpg",
+                "title": "Peer2Party",
+                "bodyText": "An OSS, cross-platform, peer-to-peer project, that aims to simplify decentralized communication within groups, or within a home.",
+                "links": [
+                    {
+                        "text": "GitHub",
+                        "href": "https://github.com/xarDeves/Peer2Party_v2"
+                    }
+                ],
+                "tags" : [
+                    "Java",
+                    "Swing",
+                    "Android",
+                    "Kotlin",
+                    "Room DB"
                 ]
             },
             {
@@ -79,24 +100,6 @@
                     "Json",
                     "HTML",
                     "CSS"
-                ]
-            },
-            {
-                "image" : "images/projects/caaring-poster.png",
-                "title": "Peer2Party",
-                "bodyText": "An OSS, cross-platform, peer-to-peer project, that aims to simplify decentralized communication within groups, or within a home.",
-                "links": [
-                    {
-                        "text": "GitHub",
-                        "href": "https://github.com/xarDeves/Peer2Party_v2"
-                    }
-                ],
-                "tags" : [
-                    "Java",
-                    "Swing",
-                    "Kotlin",
-                    "Room DB",
-                    "Android" 
                 ]
             },
             {

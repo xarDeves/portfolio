@@ -24,11 +24,7 @@ function Resume() {
     fetch(endpoints.resume)
       .then((response) => response.json())
       .then((data) => {
-        console.log('Fetched PDF path:', data.pdfPath);
         setPdfPath(data.pdfPath);
-      })
-      .catch((error) => {
-        console.error('Error fetching PDF path:', error);
       });
   }, []);
 
