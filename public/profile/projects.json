@@ -28,6 +28,7 @@
                     "Android",
                     "HTML",
                     "CSS",
+                    "Json",
                     "Qt5",
                     "Blender"
                 ]
@@ -128,6 +129,7 @@
                 "tags" : [
                     "Ableton Live",
                     "Adobe Photoshop",
+                    "Sony Vegas",
                     "Adobe After effects"
                 ]
             },
@@ -151,25 +153,28 @@
         ],
         "3D Design" : [
             {
-                "image" : "images/projects/fringe/fringe_ice.jpg",
+                "image" : "images/projects/fringe/wide_512_smoke.jpg",
                 "additionalImages" :[
-                    "images/projects/fringe/fringe_grass.jpg",
+                    "images/projects/fringe/cam_2_512.jpg",
                     "images/projects/fringe/fringe_inner_1.jpg",
-                    "images/projects/fringe/ref_1.jpg",
-                    "images/projects/fringe/ref_2.jpg",
-                    "images/projects/fringe/ref_3.jpg",
-                    "images/projects/fringe/ref_4.jpg"
+                    "images/projects/fringe/fringe_inner_2.jpg"
                 ],
                 "title": "Peter's Jurney",
-                "bodyText": "A scene inspired by the series 'Fringe'.",
+                "bodyText": "A scene inspired by the series 'Fringe' (render displayed is far from the current final scene. Unable to render due to hardware limitations).",
                 "tags" : [
                     "Blender"
                 ]
             },
             {
-                "image" : "images/projects/portfolio-poster.png",
+                "image" : "images/projects/the_home/cam_1.jpg",
+                "additionalImages" :[
+                    "images/projects/the_home/cam_2.jpg",
+                    "images/projects/the_home/cam_3.jpg",
+                    "images/projects/the_home/inner.jpg"
+
+                ],
                 "title": "The Home",
-                "bodyText": "An interior space scene.",
+                "bodyText": "An interior space scene (unfinished).",
                 "tags" : [
                     "Blender"
                 ]
