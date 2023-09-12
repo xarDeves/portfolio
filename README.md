@@ -78,6 +78,9 @@ $ set NODE_OPTIONS=--openssl-legacy-provider
 
 # Start the development server
 $ yarn start
+
+# deploy to github pages (after installing gh-pages)
+$ npm run build
 ```
 
 Once your server has started, go to this url `http://localhost:3000/` to see the portfolio locally.

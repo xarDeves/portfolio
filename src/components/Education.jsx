@@ -16,8 +16,11 @@ function Education(props) {
   const [width, setWidth] = useState('50vw');
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.education}`;
+
   useEffect(() => {
-    fetch(endpoints.education, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

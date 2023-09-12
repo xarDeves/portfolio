@@ -20,8 +20,11 @@ const styles = {
 function Resume() {
   const [pdfPath, setPdfPath] = useState('');
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.resume}`;
+
   useEffect(() => {
-    fetch(endpoints.resume)
+    fetch(jsonUrl)
       .then((response) => response.json())
       .then((data) => {
         setPdfPath(data.pdfPath);

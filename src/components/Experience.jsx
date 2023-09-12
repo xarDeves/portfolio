@@ -35,8 +35,11 @@ function Experience(props) {
   const { header } = props;
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.experiences}`;
+
   useEffect(() => {
-    fetch(endpoints.experiences, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

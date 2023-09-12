@@ -23,8 +23,11 @@ function Skills(props) {
   const { header } = props;
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.skills}`;
+
   useEffect(() => {
-    fetch(endpoints.skills, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

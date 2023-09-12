@@ -24,8 +24,11 @@ const styles = {
 function Home() {
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.home}`;
+
   useEffect(() => {
-    fetch(endpoints.home, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

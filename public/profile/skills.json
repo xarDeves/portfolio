@@ -4,23 +4,23 @@
             "title": "Languages",
             "items" : [
                 {
-                    "icon": "images/skills/cpp.png",
+                    "icon": "portfolio/images/skills/cpp.png",
                     "title": "C++"
                 },
                 {
-                    "icon": "images/skills/java.png",
+                    "icon": "portfolio/images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/python.png",
+                    "icon": "portfolio/images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/kotlin.png",
+                    "icon": "portfolio/images/skills/kotlin.png",
                     "title": "Kotlin"
                 },
                 {
-                    "icon": "images/skills/html.png",
+                    "icon": "portfolio/images/skills/html.png",
                     "title": "HTML"
                 }
         ]},
@@ -28,28 +28,32 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
+                    "icon": "portfolio/images/skills/android_new.png",
                     "title": "Android\n\n"
                 },
                 {
-                    "icon": "images/skills/arduino.png",
+                    "icon": "portfolio/images/skills/arduino.png",
                     "title": "Arduino\n\n"
                 },
                 {
-                    "icon": "images/skills/espressif.png",
+                    "icon": "portfolio/images/skills/espressif.png",
                     "title": "Espressif\nSystems"
                 },
                 {
-                    "icon": "images/skills/open_cv.png",
+                    "icon": "portfolio/images/skills/open_cv.png",
                     "title": "OpenCV\n\n"
                 },
                 {
-                    "icon": "images/skills/qt.png",
+                    "icon": "portfolio/images/skills/qt.png",
                     "title": "Qt5\n\n"
                 },
                 {
-                    "icon": "images/skills/nvidia.png",
+                    "icon": "portfolio/images/skills/nvidia.png",
                     "title": "Cuda\n\n"
+                },
+                {
+                    "icon": "portfolio/images/skills/gradle.png",
+                    "title": "Gradle\n\n"
                 }
             ]
         },
@@ -57,51 +61,51 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/windows.png",
+                    "icon": "portfolio/images/skills/windows.png",
                     "title": "Windows\n\n"
                 },
                 {
-                    "icon": "images/skills/linux.png",
+                    "icon": "portfolio/images/skills/linux.png",
                     "title": "Linux\n\n"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "portfolio/images/skills/git.png",
                     "title": "Git\n\n"
                 },
                 {
-                    "icon": "images/skills/android_studio.png",
+                    "icon": "portfolio/images/skills/android_studio.png",
                     "title": "Android\nStudio"
                 },
                 {
-                    "icon": "images/skills/intellij_idea.png",
+                    "icon": "portfolio/images/skills/intellij_idea.png",
                     "title": "Intellij\nIdea"
                 },
                 {
-                    "icon": "images/skills/pycharm.png",
+                    "icon": "portfolio/images/skills/pycharm.png",
                     "title": "Pycharm\n\n"
                 },
                 {
-                    "icon": "images/skills/vs_code.png",
+                    "icon": "portfolio/images/skills/vs_code.png",
                     "title": "VS Code\n\n"
                 },
                 {
-                    "icon": "images/skills/vs.png",
+                    "icon": "portfolio/images/skills/vs.png",
                     "title": "Visual\nStudio"
                 },
                 {
-                    "icon": "images/skills/photoshop.png",
+                    "icon": "portfolio/images/skills/photoshop.png",
                     "title": "Adobe\nPhotoshop"
                 },
                 {
-                    "icon": "images/skills/sony_vegas.png",
+                    "icon": "portfolio/images/skills/sony_vegas.png",
                     "title": "Sony\nVegas"
                 },
                 {
-                    "icon": "images/skills/blender.png",
+                    "icon": "portfolio/images/skills/blender.png",
                     "title": "Blender\n\n"
                 },
                 {
-                    "icon": "images/skills/ableton.png",
+                    "icon": "portfolio/images/skills/ableton.png",
                     "title": "Ableton\nlive"
                 }
             ]

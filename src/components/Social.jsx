@@ -15,8 +15,11 @@ function Social() {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.social}`;
+
   useEffect(() => {
-    fetch(endpoints.social, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

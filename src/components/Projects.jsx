@@ -18,8 +18,11 @@ const Projects = (props) => {
   const { header } = props;
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.projects}`;
+
   useEffect(() => {
-    fetch(endpoints.projects, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

@@ -34,8 +34,11 @@ function About(props) {
     />
   );
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.about}`;
+
   useEffect(() => {
-    fetch(endpoints.about, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())

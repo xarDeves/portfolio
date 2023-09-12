@@ -8,8 +8,11 @@ import endpoints from './constants/endpoints';
 function MainApp() {
   const [data, setData] = useState(null);
 
+  const baseUrl = process.env.PUBLIC_URL;
+  const jsonUrl = `${baseUrl}/${endpoints.routes}`;
+
   useEffect(() => {
-    fetch(endpoints.routes, {
+    fetch(jsonUrl, {
       method: 'GET',
     })
       .then((res) => res.json())
