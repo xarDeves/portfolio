@@ -50,6 +50,10 @@
                 {
                     "icon": "portfolio/images/skills/nvidia.png",
                     "title": "Cuda\n\n"
+                },
+                {
+                    "icon": "portfolio/images/skills/gradle.png",
+                    "title": "Gradle\n\n"
                 }
             ]
         },
