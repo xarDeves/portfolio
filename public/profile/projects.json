@@ -171,7 +171,6 @@
                     "images/projects/the_home/cam_2.jpg",
                     "images/projects/the_home/cam_3.jpg",
                     "images/projects/the_home/inner.jpg"
-
                 ],
                 "title": "The Home",
                 "bodyText": "An interior space scene (unfinished).",
@@ -180,25 +179,32 @@
                 ]
             },
             {
-                "image" : "images/projects/glass_garden/glass_garden.jpg",
-                "additionalImages" :["images/projects/glass_garden/glass_garden_inner_1.jpg", "images/projects/glass_garden/glass_garden_inner_2.jpg"],
-                "title": "Glass Garden",
-                "bodyText": "An abstract glass scene.",
+                "image" : "images/projects/wavy/3.jpg",
+                "additionalImages" :[
+                    "images/projects/wavy/2.jpg",
+                    "images/projects/wavy/1.jpg",
+                    "images/projects/wavy/inner_1.jpg",
+                    "images/projects/wavy/inner_2.jpg"
+                ],
+                "title": "Wavy Plane",
+                "bodyText": "An abstract scene with using a single displaced plane.",
                 "tags" : [
-                    "Blender"
+                    "Blender",
+                    "Photoshop"
                 ]
             },
-            {
+                        {
                 "image" : "images/projects/glass_towers/glass_towers_2.jpg",
-                "additionalImages" :["images/projects/glass_towers/glass_towers_1.jpg",
+                "additionalImages" :[
+                    "images/projects/glass_towers/glass_towers_1.jpg",
                     "images/projects/glass_towers/glass_towers_inner_1.jpg",
                     "images/projects/glass_towers/glass_towers_inner_2.jpg"
                 ],
                 "title": "Glass towers",
-                "bodyText": "Yet again an abstract glass scene.",
+                "bodyText": "An abstract glass scene.",
                 "tags" : [
                     "Blender"
                 ]
-            }
+            }            
         ]
     }
