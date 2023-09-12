@@ -1,0 +1,16 @@
+{
+    "education":[
+        {
+            "title": "2018 - Current",
+            "cardTitle": "Computer Science",
+            "cardSubtitle":"University of Peloponnese",
+            "cardDetailedText": "Patras, GR"
+        },
+        {
+            "title": "2016 - 2018",
+            "cardTitle": "Support Systems, Applications and Computer Networks",
+            "cardSubtitle":"Vocational Senior High School",
+            "cardDetailedText": "Aigio, GR"
+        }
+    ]
+}

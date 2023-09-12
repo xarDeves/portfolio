@@ -1,0 +1,21 @@
+{
+    "experiences": [
+        {
+            "title": "Programming Tutor",
+            "workDescription": [
+                "Helped students grasp core concepts of C++ and Java, achieving a 100% success rate in exam pass rates.",
+                "Conducted code reviews, identified errors, and provided feedback to improve students' programming skills."
+            ],
+            "dateText": "2022 – Current"
+        },
+        {
+            "title": "PC Building and Repair",
+            "workDescription": [
+                "Building, configuring, and customizing PCs based on clients' specifications.",
+                "Installed and configured operating systems, drivers, and software applications.                ",
+                "Repaired and resolved hardware and software problems, including component replacements and incompatibilities, system/BIOS upgrades, and malware removal."
+            ],
+            "dateText": "2016 – Current"
+        }
+    ]
+}
