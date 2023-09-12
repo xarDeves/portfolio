@@ -1,8 +1,8 @@
     {
         "Software - Hardware" : [
             {
-                "image" : "images/projects/mk_I/mk_I.jpg",
-                "additionalImages": ["images/projects/mk_I/mk_I_test.gif" ,"images/projects/mk_I/mk_I_breadboard.jpg", "images/projects/mk_I/mk_I_apps.jpg"],
+                "image" : "portfolio/images/projects/mk_I/mk_I.jpg",
+                "additionalImages": ["portfolio/images/projects/mk_I/mk_I_test.gif" ,"portfolio/images/projects/mk_I/mk_I_breadboard.jpg", "portfolio/images/projects/mk_I/mk_I_apps.jpg"],
                 "title": "Spectra MK I",
                 "bodyText": "A parametrizable, standalone audio to color transformer with audio visualization tools built on the esp32, utilizing freeRTOS, with its respective apps for desktop (C++ with QT5) and Android (Kotlin).",
                 "links": [
@@ -34,8 +34,8 @@
                 ]
             },
             {
-                "image" : "images/projects/chemisFree/ChemisFree.jpg",
-                "additionalImages" :["images/projects/chemisFree/ChemisFree_text_editor.gif", "images/projects/chemisFree/ChemisFree_mol_reco.gif"],
+                "image" : "portfolio/images/projects/chemisFree/ChemisFree.jpg",
+                "additionalImages" :["portfolio/images/projects/chemisFree/ChemisFree_text_editor.gif", "portfolio/images/projects/chemisFree/ChemisFree_mol_reco.gif"],
                 "title": "ChemisFree",
                 "bodyText": "A desktop application suit for chemists, providing utilities for molecule editing/recognition and article management, utilizing OCR and text parsing/saving via XML.",
                 "links": [
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "image" : "images/projects/peer2party/p2party_composite.jpg",
+                "image" : "portfolio/images/projects/peer2party/p2party_composite.jpg",
                 "title": "Peer2Party",
                 "bodyText": "An OSS, cross-platform, peer-to-peer project, that aims to simplify decentralized communication within groups, or within a home.",
                 "links": [
@@ -70,7 +70,7 @@
                 ]
             },
             {
-                "image" : "images/projects/LSTM.jpg",
+                "image" : "portfolio/images/projects/LSTM.jpg",
                 "title": "Lottery Prediction",
                 "bodyText": "Scraped, parsed and transformed lottery draw data in order to create an LSTM neural network for time series forecasting. (Surprise surprise, it didn't work).",
                 "links": [
@@ -87,7 +87,7 @@
                 ]
             },
             {
-                "image" : "images/projects/this_portfolio.gif",
+                "image" : "portfolio/images/projects/this_portfolio.gif",
                 "title": "This Portfolio",
                 "bodyText": "Expanded upon Mayank Agarwal's work by making the 'Projects' section dynamic, added image modal component for each 'ProjectCard' and PDF viewer in 'Resume'.",
                 "links": [
@@ -116,8 +116,8 @@
         ],
         "Audio - Video" : [
             {
-                "image" : "images/projects/fear/fear.jpg",
-                "additionalImages" :["images/projects/fear/fear_inner_1.jpg", "images/projects/fear/fear_inner_2.jpg"],
+                "image" : "portfolio/images/projects/fear/fear.jpg",
+                "additionalImages" :["portfolio/images/projects/fear/fear_inner_1.jpg", "portfolio/images/projects/fear/fear_inner_2.jpg"],
                 "title": "Fear the Reaper",
                 "bodyText": "A remix of 'Don't Fear The Reaper' by Blue Oyster Cult",
                 "links": [
@@ -134,8 +134,8 @@
                 ]
             },
             {
-                "image" : "images/projects/stinky/stinky.jpg",
-                "additionalImages" :["images/projects/stinky/stinky_inner.jpg"],
+                "image" : "portfolio/images/projects/stinky/stinky.jpg",
+                "additionalImages" :["portfolio/images/projects/stinky/stinky_inner.jpg"],
                 "title": "Stinky Slumdog",
                 "bodyText": "My band's channel (me being the drummer) with all our work, having done all of the mixing/mastering, image manipulation and (collaboratively) video editing",
                 "links": [
@@ -153,11 +153,11 @@
         ],
         "3D Design" : [
             {
-                "image" : "images/projects/fringe/wide_512_smoke.jpg",
+                "image" : "portfolio/images/projects/fringe/wide_512_smoke.jpg",
                 "additionalImages" :[
-                    "images/projects/fringe/cam_2_512.jpg",
-                    "images/projects/fringe/fringe_inner_1.jpg",
-                    "images/projects/fringe/fringe_inner_2.jpg"
+                    "portfolio/images/projects/fringe/cam_2_512.jpg",
+                    "portfolio/images/projects/fringe/fringe_inner_1.jpg",
+                    "portfolio/images/projects/fringe/fringe_inner_2.jpg"
                 ],
                 "title": "Peter's Jurney",
                 "bodyText": "A scene inspired by the series 'Fringe' (render displayed is far from the current final scene. Unable to render due to hardware limitations).",
@@ -166,11 +166,11 @@
                 ]
             },
             {
-                "image" : "images/projects/the_home/cam_1.jpg",
+                "image" : "portfolio/images/projects/the_home/cam_1.jpg",
                 "additionalImages" :[
-                    "images/projects/the_home/cam_2.jpg",
-                    "images/projects/the_home/cam_3.jpg",
-                    "images/projects/the_home/inner.jpg"
+                    "portfolio/images/projects/the_home/cam_2.jpg",
+                    "portfolio/images/projects/the_home/cam_3.jpg",
+                    "portfolio/images/projects/the_home/inner.jpg"
                 ],
                 "title": "The Home",
                 "bodyText": "An interior space scene (unfinished).",
@@ -179,12 +179,12 @@
                 ]
             },
             {
-                "image" : "images/projects/wavy/3.jpg",
+                "image" : "portfolio/images/projects/wavy/3.jpg",
                 "additionalImages" :[
-                    "images/projects/wavy/2.jpg",
-                    "images/projects/wavy/1.jpg",
-                    "images/projects/wavy/inner_1.jpg",
-                    "images/projects/wavy/inner_2.jpg"
+                    "portfolio/images/projects/wavy/2.jpg",
+                    "portfolio/images/projects/wavy/1.jpg",
+                    "portfolio/images/projects/wavy/inner_1.jpg",
+                    "portfolio/images/projects/wavy/inner_2.jpg"
                 ],
                 "title": "Wavy Plane",
                 "bodyText": "An abstract scene with using a single displaced plane.",
@@ -194,11 +194,11 @@
                 ]
             },
                         {
-                "image" : "images/projects/glass_towers/glass_towers_2.jpg",
+                "image" : "portfolio/images/projects/glass_towers/glass_towers_2.jpg",
                 "additionalImages" :[
-                    "images/projects/glass_towers/glass_towers_1.jpg",
-                    "images/projects/glass_towers/glass_towers_inner_1.jpg",
-                    "images/projects/glass_towers/glass_towers_inner_2.jpg"
+                    "portfolio/images/projects/glass_towers/glass_towers_1.jpg",
+                    "portfolio/images/projects/glass_towers/glass_towers_inner_1.jpg",
+                    "portfolio/images/projects/glass_towers/glass_towers_inner_2.jpg"
                 ],
                 "title": "Glass towers",
                 "bodyText": "An abstract glass scene.",
