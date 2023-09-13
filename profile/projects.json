@@ -146,8 +146,8 @@
                 "additionalImages" :[
                     "portfolio/images/projects/wavy/inner.jpg"
                 ],
-                "title": "Wavy Plane",
-                "bodyText": "An abstract scene using a single displaced plane.",
+                "title": "Instanced Plane",
+                "bodyText": "An abstract scene using geometry nodes.",
                 "tags" : [
                     "Blender",
                     "Photoshop"
@@ -162,7 +162,7 @@
                     "portfolio/images/projects/wavy/inner_2.jpg"
                 ],
                 "title": "Wavy Plane",
-                "bodyText": "An abstract scene using geometry nodes.",
+                "bodyText": "An abstract scene using a single displaced plane.",
                 "tags" : [
                     "Blender",
                     "Photoshop"
