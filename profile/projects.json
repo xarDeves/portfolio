@@ -144,7 +144,7 @@
             {
                 "image" : "portfolio/images/projects/instanced plane/1_edited.jpg",
                 "additionalImages" :[
-                    "portfolio/images/projects/wavy/inner.jpg"
+                    "portfolio/images/projects/instanced plane/inner.jpg"
                 ],
                 "title": "Instanced Plane",
                 "bodyText": "An abstract scene using geometry nodes.",
