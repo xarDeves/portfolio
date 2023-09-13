@@ -93,7 +93,7 @@
                 "links": [
                     {
                         "text": "GitHub",
-                        "href": "https://github.com/mayankagarwal09/Caaring"
+                        "href": "https://github.com/mayankagarwal09/dev-portfolio"
                     }
                 ],
                 "tags" : [
@@ -110,6 +110,74 @@
                     "Esp32",
                     "Arduino",
                     "Cloud Computing",
+                    "Blender"
+                ]
+            }            
+        ],
+        "3D Design" : [
+            {
+                "image" : "portfolio/images/projects/fringe/wide_512_smoke.jpg",
+                "additionalImages" :[
+                    "portfolio/images/projects/fringe/cam_2_512.jpg",
+                    "portfolio/images/projects/fringe/fringe_inner_1.jpg",
+                    "portfolio/images/projects/fringe/fringe_inner_2.jpg"
+                ],
+                "title": "Peter's Jurney",
+                "bodyText": "A scene inspired by the series 'Fringe' (render displayed is far from the current final scene. Unable to render due to hardware limitations).",
+                "tags" : [
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "portfolio/images/projects/the_home/cam_1.jpg",
+                "additionalImages" :[
+                    "portfolio/images/projects/the_home/cam_2.jpg",
+                    "portfolio/images/projects/the_home/cam_3.jpg",
+                    "portfolio/images/projects/the_home/inner.jpg"
+                ],
+                "title": "The Home",
+                "bodyText": "An interior space scene (unfinished).",
+                "tags" : [
+                    "Blender"
+                ]
+            },
+            {
+                "image" : "portfolio/images/projects/instanced plane/1_edited.jpg",
+                "additionalImages" :[
+                    "portfolio/images/projects/wavy/inner.jpg"
+                ],
+                "title": "Wavy Plane",
+                "bodyText": "An abstract scene using a single displaced plane.",
+                "tags" : [
+                    "Blender",
+                    "Photoshop"
+                ]
+            },
+            {
+                "image" : "portfolio/images/projects/wavy/3.jpg",
+                "additionalImages" :[
+                    "portfolio/images/projects/wavy/2.jpg",
+                    "portfolio/images/projects/wavy/1.jpg",
+                    "portfolio/images/projects/wavy/inner_1.jpg",
+                    "portfolio/images/projects/wavy/inner_2.jpg"
+                ],
+                "title": "Wavy Plane",
+                "bodyText": "An abstract scene using geometry nodes.",
+                "tags" : [
+                    "Blender",
+                    "Photoshop"
+                ]
+            },
+                {
+                "image" : "portfolio/images/projects/glass_towers/glass_towers_2.jpg",
+                "additionalImages" :[
+                    "portfolio/images/projects/glass_towers/glass_towers_1.jpg",
+                    "portfolio/images/projects/glass_towers/glass_towers_inner_1.jpg",
+                    "portfolio/images/projects/glass_towers/glass_towers_inner_2.jpg"
+                ],
+                "title": "Glass towers",
+                "bodyText": "An abstract glass scene.",
+                "tags" : [
                     "Blender"
                 ]
             }            
@@ -150,61 +218,5 @@
                     "Adobe Photoshop"
                 ]
             }
-        ],
-        "3D Design" : [
-            {
-                "image" : "portfolio/images/projects/fringe/wide_512_smoke.jpg",
-                "additionalImages" :[
-                    "portfolio/images/projects/fringe/cam_2_512.jpg",
-                    "portfolio/images/projects/fringe/fringe_inner_1.jpg",
-                    "portfolio/images/projects/fringe/fringe_inner_2.jpg"
-                ],
-                "title": "Peter's Jurney",
-                "bodyText": "A scene inspired by the series 'Fringe' (render displayed is far from the current final scene. Unable to render due to hardware limitations).",
-                "tags" : [
-                    "Blender"
-                ]
-            },
-            {
-                "image" : "portfolio/images/projects/the_home/cam_1.jpg",
-                "additionalImages" :[
-                    "portfolio/images/projects/the_home/cam_2.jpg",
-                    "portfolio/images/projects/the_home/cam_3.jpg",
-                    "portfolio/images/projects/the_home/inner.jpg"
-                ],
-                "title": "The Home",
-                "bodyText": "An interior space scene (unfinished).",
-                "tags" : [
-                    "Blender"
-                ]
-            },
-            {
-                "image" : "portfolio/images/projects/wavy/3.jpg",
-                "additionalImages" :[
-                    "portfolio/images/projects/wavy/2.jpg",
-                    "portfolio/images/projects/wavy/1.jpg",
-                    "portfolio/images/projects/wavy/inner_1.jpg",
-                    "portfolio/images/projects/wavy/inner_2.jpg"
-                ],
-                "title": "Wavy Plane",
-                "bodyText": "An abstract scene with using a single displaced plane.",
-                "tags" : [
-                    "Blender",
-                    "Photoshop"
-                ]
-            },
-                        {
-                "image" : "portfolio/images/projects/glass_towers/glass_towers_2.jpg",
-                "additionalImages" :[
-                    "portfolio/images/projects/glass_towers/glass_towers_1.jpg",
-                    "portfolio/images/projects/glass_towers/glass_towers_inner_1.jpg",
-                    "portfolio/images/projects/glass_towers/glass_towers_inner_2.jpg"
-                ],
-                "title": "Glass towers",
-                "bodyText": "An abstract glass scene.",
-                "tags" : [
-                    "Blender"
-                ]
-            }            
         ]
     }
