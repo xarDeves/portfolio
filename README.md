@@ -547,9 +547,13 @@ Go to `public/index.html`. Change *title* and *logo* if you want to customize it
 
 ## Deployment 📦
 
+## Github Pages:
+
+- run "npm run deploy" after "set NODE_OPTIONS=--openssl-legacy-provider"
+
 Once you finish your setup. You need to put your website online!
 
-I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
+I highly recommend to use [Vercel](https://verlcel.app) because it is super easy.
 
 ## Notable Portfolios made using this template
 
