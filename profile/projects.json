@@ -169,16 +169,16 @@
                 ]
             },
                 {
-                "image" : "portfolio/images/projects/glass_towers/glass_towers_2.jpg",
+                "image" : "portfolio/images/projects/parallax_portrait/parallax.jpg",
                 "additionalImages" :[
-                    "portfolio/images/projects/glass_towers/glass_towers_1.jpg",
-                    "portfolio/images/projects/glass_towers/glass_towers_inner_1.jpg",
-                    "portfolio/images/projects/glass_towers/glass_towers_inner_2.jpg"
+                    "portfolio/images/projects/parallax_portrait/parallax_inner.jpg"
                 ],
-                "title": "Glass towers",
-                "bodyText": "An abstract glass scene.",
+                "title": "Parallax Portrait",
+                "bodyText": "Used stable diffusion to generate the original image and inkscape to trace bitmap as an svg",
                 "tags" : [
-                    "Blender"
+                    "Blender",
+                    "Inkscape",
+                    "Photoshop"
                 ]
             }            
         ],
