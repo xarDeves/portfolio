@@ -2,7 +2,12 @@
         "Software - Hardware" : [
             {
                 "image" : "portfolio/images/projects/mk_I/mk_I.jpg",
-                "additionalImages": ["portfolio/images/projects/mk_I/mk_I_test.gif" ,"portfolio/images/projects/mk_I/mk_I_breadboard.jpg", "portfolio/images/projects/mk_I/mk_I_apps.jpg"],
+                "additionalImages": [
+                    "portfolio/images/projects/mk_I/mk_I_test.gif",
+                    "portfolio/images/projects/mk_I/mk_I_breadboard.jpg",
+                    "portfolio/images/projects/mk_I/mk_I_desktop.jpg",
+                    "portfolio/images/projects/mk_I/mk_I_android.jpg"
+                ],
                 "title": "Spectra MK I",
                 "bodyText": "A parametrizable, standalone audio to color transformer with audio visualization tools built on the esp32, utilizing freeRTOS, with its respective apps for desktop (C++ with QT5) and Android (Kotlin).",
                 "links": [
@@ -35,7 +40,10 @@
             },
             {
                 "image" : "portfolio/images/projects/chemisFree/ChemisFree.jpg",
-                "additionalImages" :["portfolio/images/projects/chemisFree/ChemisFree_text_editor.gif", "portfolio/images/projects/chemisFree/ChemisFree_mol_reco.gif"],
+                "additionalImages" :[
+                    "portfolio/images/projects/chemisFree/ChemisFree_text_editor.gif",
+                    "portfolio/images/projects/chemisFree/ChemisFree_mol_reco.gif"
+                ],
                 "title": "ChemisFree",
                 "bodyText": "A desktop application suit for chemists, providing utilities for molecule editing/recognition and article management, utilizing OCR and text parsing/saving via XML.",
                 "links": [
